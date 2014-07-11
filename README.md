@@ -120,7 +120,7 @@ or download the css on github and include in your project.
 .ht-99 { height: 99%; }
 .ht-100 { height: 100%; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ht-1-ns { height: 1%; }
   .ht-2-ns { height: 2%; }
   .ht-3-ns { height: 3%; }
@@ -223,7 +223,7 @@ or download the css on github and include in your project.
   .ht-100-ns { height: 100%; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ht-1-m { height: 1%; }
   .ht-2-m { height: 2%; }
   .ht-3-m { height: 3%; }
@@ -326,7 +326,7 @@ or download the css on github and include in your project.
   .ht-100-m { height: 100%; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ht-1-l { height: 1%; }
   .ht-2-l { height: 2%; }
   .ht-3-l { height: 3%; }
