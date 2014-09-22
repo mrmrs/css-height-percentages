@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-height-percentages)
 ## File Size
 
 11K height-percentages.css
-7.8K06 height-percentages.min.css
+7.8K06 height-percentages.min.css 
+1minified and gzipped
 
 ## The Code
 ```
