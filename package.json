@@ -1,5 +1,6 @@
 {
   "name": "css-height-percentages",
+  "style": "height-percentages.css",
   "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-height-percentages",
   "description": "Css module of single purpose classes for height percentages",
