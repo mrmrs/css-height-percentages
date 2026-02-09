@@ -1,38 +1,44 @@
 {
   "name": "css-height-percentages",
-  "style": "height-percentages.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-height-percentages",
-  "description": "Css module of single purpose classes for height percentages",
+  "version": "2.0.0",
+  "description": "Functional CSS for height-percentages",
+  "style": "dist/height-percentages.css",
+  "main": "dist/height-percentages.css",
+  "exports": {
+    ".": "./dist/height-percentages.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "height-percentages"
+    "height-percentages",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-height-percentages": {
+  "homepage": "https://github.com/mrmrs/css-height-percentages",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-height-percentages.git"
+    "url": "https://github.com/mrmrs/css-height-percentages.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-height-percentages/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-height-percentages/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
